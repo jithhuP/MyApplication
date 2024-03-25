@@ -33,7 +33,7 @@ public class postdata {
 
     Gson gson = new GsonBuilder().setLenient().create();
     private final Retrofit retrofit = new Retrofit.Builder()
-            .baseUrl("http://203.255.81.72:10021/")
+            .baseUrl("http://203.255.81.72:10021/dustsensor/commtest_get/")
             .addConverterFactory(ScalarsConverterFactory.create())
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build();

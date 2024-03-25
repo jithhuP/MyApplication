@@ -24,7 +24,8 @@
             android:id="@+id/bt_add"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="추가" />
+            android:onClick="dataSend"
+            android:text="전송" />
 
         <Button
             android:id="@+id/bt_delete"
